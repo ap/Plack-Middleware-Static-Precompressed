@@ -1,7 +1,7 @@
 use 5.008001; use strict; use warnings;
 
 package Plack::Middleware::Static::Precompressed;
-our $VERSION = '1.001';
+our $VERSION = '1.002';
 use parent 'Plack::Middleware';
 use Plack::Util::Accessor qw(
 	ext_map
