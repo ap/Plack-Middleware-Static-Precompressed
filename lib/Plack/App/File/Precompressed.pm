@@ -1,6 +1,9 @@
+use 5.008001; use strict; use warnings;
+
 package Plack::App::File::Precompressed;
 our $VERSION = '1.001';
 use parent 'Plack::Middleware::Static::Precompressed';
+
 1;
 
 __END__
